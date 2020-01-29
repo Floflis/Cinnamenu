@@ -26,12 +26,12 @@ Cinnamenu é um menu iniciar completo para o Cinnamon. É um fork da extensão S
 [PT-BR]
 ### Recursos
 
- * Veja aplicativos em uma lista ou grade.
- * Favoritos da Web integrados do Chrome, Chromium, Firefox e Opera.
- * Pesquisa rápida de aplicativos, arquivos e favoritos do navegador.
- * Indicadores para executar aplicativos.
- * Opção para mostrar descrições nos botões.
- * Mais completo que o Cinnamon menu.
+* Veja aplicativos em uma lista ou grade.
+* Favoritos da Web integrados do Chrome, Chromium, Firefox e Opera.
+* Pesquisa rápida de aplicativos, arquivos e favoritos do navegador.
+* Indicadores para executar aplicativos.
+* Opção para mostrar descrições nos botões.
+* Mais completo que o Cinnamon menu.
    * Navegação com teclas.
    * Auto-completar.
    * Opção para limpar as listas de arquivos recentes.
@@ -39,5 +39,5 @@ Cinnamenu é um menu iniciar completo para o Cinnamon. É um fork da extensão S
    * Oculte categorias no menu.
    
    
-   Ow na moral desculpa qualquer coisa aí na tradução [PT-BR].
+* Ow na moral desculpa qualquer coisa aí na tradução [PT-BR].
    
