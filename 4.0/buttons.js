@@ -523,8 +523,8 @@ class AppListGridButton extends PopupBaseMenuItem {
     }
 
     this.label = new Label({
-      text: this.buttonState.app.name,
-      style_class: 'menu-application-button-label'
+      text: this.buttonState.app.name+" ",
+      //style_class: 'menu-application-button-label'
     });
 
     this.dot = new Widget({

@@ -568,8 +568,8 @@ AppListGridButton.prototype = {
     }
 
     this.label = new St.Label({
-      text: this.buttonState.app.name,
-      style_class: 'menu-application-button-label'
+      text: this.buttonState.app.name+" ",
+      //style_class: 'menu-application-button-label'
     });
 
     this.dot = new St.Widget({
