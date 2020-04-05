@@ -2166,7 +2166,7 @@ CinnamenuApplet.prototype = {
     });
     this.searchBox = new St.BoxLayout({
       style_class: 'menu-search-box',
-      style: 'padding-right: 7px;'
+      style: 'padding-right: 50px;'
     });
     this.searchEntry = new St.Entry({
       name: 'menu-search-entry',
