@@ -1,21 +1,21 @@
 {
-  "name": "Cinnamenu",
-  "version": "1.2.1",
-  "description": "Cinnamenu",
+  "name": "Cinnamenu 2.0",
+  "version": "1.0.0",
+  "description": "Cinnamenu 2.0",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaszhix/Cinnamenu.git"
+    "url": "git+https://github.com/Lusberg/Cinnamenu-2.0"
   },
-  "author": "",
+  "author": "Lusberg",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/jaszhix/Cinnamenu/issues"
+    "url": "https://github.com/Lusberg/Cinnamenu-2.0"
   },
-  "homepage": "https://github.com/jaszhix/Cinnamenu#readme",
+  "homepage": "https://github.com/Lusberg/Cinnamenu-2.0#readme",
   "devDependencies": {
     "clear": "0.0.1",
     "del": "^2.2.2",

@@ -6,13 +6,13 @@ var clear = require('clear');
 var exec = require('child_process').exec;
 
 gulp.task('package', ()=> {
-  return gulp.src('./Cinnamenu@json/**/**/*')
+  return gulp.src('./Cinnamenu-2.0@json/**/**/*')
     .pipe(zip('ITM-dist-' + Date.now() + '.zip'))
     .pipe(gulp.dest('./builds'));
 });
 
 gulp.task('clean', (cb)=>{
-  exec('rm -rf ./Cinnamenu@json/', function (err, stdout, stderr) {
+  exec('rm -rf ./Cinnamenu-2.0@json/', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb(err);
@@ -22,7 +22,7 @@ gulp.task('clean', (cb)=>{
 
 gulp.task('copy', ['clean'], ()=> {
   return gulp.src('./**/**/*')
-    .pipe(gulp.dest('./Cinnamenu@json/'));
+    .pipe(gulp.dest('./Cinnamenu-2.0@json/'));
 });
 
 gulp.task('transpile', () =>
@@ -53,11 +53,11 @@ gulp.task('transpile', () =>
         './src/lodash.js'
       ]
     }))
-    .pipe(gulp.dest('Cinnamenu@json'))
+    .pipe(gulp.dest('Cinnamenu-2.0@json'))
 );
 
 gulp.task('install', (cb)=>{
-  exec('cp -arf ./ ~/.local/share/cinnamon/applets/Cinnamenu@json', function (err, stdout, stderr) {
+  exec('cp -arf ./ ~/.local/share/cinnamon/applets/Cinnamenu-2.0@json', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb(err);
@@ -65,7 +65,7 @@ gulp.task('install', (cb)=>{
 });
 
 gulp.task('reload', ['install'], (cb)=>{
-  exec(`dbus-send --session --dest=org.Cinnamon.LookingGlass --type=method_call /org/Cinnamon/LookingGlass org.Cinnamon.LookingGlass.ReloadExtension string:'Cinnamenu@json' string:'APPLET'`, function (err, stdout, stderr) {
+  exec(`dbus-send --session --dest=org.Cinnamon.LookingGlass --type=method_call /org/Cinnamon/LookingGlass org.Cinnamon.LookingGlass.ReloadExtension string:'Cinnamenu-2.0@json' string:'APPLET'`, function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb(err);

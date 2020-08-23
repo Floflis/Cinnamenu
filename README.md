@@ -1,3 +1,9 @@
+Cinnamenu 2.0 
+========
+
+Cinnamenu 2.0 is continuation of Cinnamenu project by jaszhix - https://github.com/jaszhix/Cinnamenu
+
+
 Cinnamenu
 ========
 
