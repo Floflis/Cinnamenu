@@ -1,11 +1,11 @@
-# Swedish translation for Cinnamenu@json.
+# Swedish translation for Cinnamenu-2.0@json.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Åke Engelbrektson <eson@svenskasprakfiler.se>, 2017.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Cinnamenu@json\n"
+"Project-Id-Version: Cinnamenu-2.0@json\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-31 01:03-0500\n"
 "PO-Revision-Date: 2017-06-29 09:06+0200\n"

@@ -1,8 +1,8 @@
 {
-  "uuid": "Cinnamenu@json",
-  "name": "Cinnamenu",
+  "uuid": "Cinnamenu-2.0@json",
+  "name": "Cinnamenu 2.0",
   "description": "A flexible menu providing formatting options, web bookmarks, open window lookup, and search provider support with fuzzy searching.",
   "max-instances": 1,
-  "version": "3.2.6",
-  "cinnamon-version": ["3.2", "3.4", "3.6", "3.8", "4.0"]
+  "version": "1.0.0",
+  "cinnamon-version": ["3.2", "3.4", "3.6", "3.8", "4.0", "4.2", "4.4", "4.6", "4.8", "5.0"]
 }
